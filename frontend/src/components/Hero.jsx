@@ -1,33 +1,7 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
-import { Canvas, useFrame } from '@react-three/fiber';
-import { OrbitControls, Sphere, MeshDistortMaterial } from '@react-three/drei';
 import { ChevronDown } from 'lucide-react';
 import { personalInfo } from '../mock/portfolioData';
-import * as THREE from 'three';
-
-const AnimatedSphere = () => {
-  const meshRef = useRef();
-
-  useFrame(({ clock }) => {
-    if (meshRef.current) {
-      meshRef.current.rotation.x = clock.getElapsedTime() * 0.2;
-      meshRef.current.rotation.y = clock.getElapsedTime() * 0.3;
-    }
-  });
-
-  return (
-    <Sphere ref={meshRef} args={[1, 100, 200]} scale={2.5}>
-      <MeshDistortMaterial
-        color="#8b5cf6"
-        attach="material"
-        distort={0.5}
-        speed={2}
-        roughness={0.2}
-      />
-    </Sphere>
-  );
-};
 
 const Hero = () => {
   const scrollToSection = (href) => {
@@ -52,14 +26,11 @@ const Hero = () => {
         <div className="absolute bottom-20 left-1/2 w-72 h-72 bg-indigo-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-4000"></div>
       </div>
 
-      {/* Three.js 3D Sphere */}
+      {/* Animated geometric shapes background */}
       <div className="absolute inset-0 z-0">
-        <Canvas camera={{ position: [0, 0, 5] }}>
-          <ambientLight intensity={0.5} />
-          <directionalLight position={[10, 10, 5]} intensity={1} />
-          <AnimatedSphere />
-          <OrbitControls enableZoom={false} autoRotate autoRotateSpeed={0.5} />
-        </Canvas>
+        <div className="absolute top-1/4 left-1/4 w-64 h-64 border-2 border-purple-500/30 rounded-lg transform rotate-45 animate-float"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-48 h-48 border-2 border-blue-500/30 rounded-full animate-float animation-delay-2000"></div>
+        <div className="absolute top-1/2 right-1/3 w-32 h-32 border-2 border-cyan-500/30 transform rotate-12 animate-float animation-delay-4000"></div>
       </div>
 
       {/* Content */}
