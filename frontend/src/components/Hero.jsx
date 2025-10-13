@@ -1,10 +1,10 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, Sphere, MeshDistortMaterial } from '@react-three/drei';
-import Spline from '@splinetool/react-spline';
 import { ChevronDown } from 'lucide-react';
 import { personalInfo } from '../mock/portfolioData';
+import * as THREE from 'three';
 
 const AnimatedSphere = () => {
   const meshRef = useRef();
