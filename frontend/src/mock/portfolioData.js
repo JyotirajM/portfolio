@@ -121,79 +121,45 @@ export const projects = [
 export const timeline = [
   {
     id: 1,
-    year: "2024",
-    title: "Lead DevOps Engineer",
-    company: "TechCorp Cloud Solutions",
-    type: "work",
-    description: "Leading cloud infrastructure transformation initiative for enterprise clients. Managing team of 8 DevOps engineers.",
-    achievements: [
-      "Migrated 50+ applications to Kubernetes",
-      "Reduced infrastructure costs by $2M annually",
-      "Implemented zero-trust security architecture"
-    ]
+    year: "2022 - 2024",
+    title: "Master of Computer Applications (MCA)",
+    company: "Trident Academy of Creative Technology",
+    type: "certification",
+    description: "Completed MCA with 74% from Trident Academy of Creative Technology, Bhubaneswar, Odisha. Focused on cloud computing, DevOps practices, and automation technologies."
   },
   {
     id: 2,
-    year: "2023",
-    title: "Certified Kubernetes Administrator (CKA)",
-    company: "Cloud Native Computing Foundation",
-    type: "certification",
-    description: "Achieved CKA certification demonstrating expertise in Kubernetes administration, troubleshooting, and best practices."
+    year: "2024",
+    title: "3-Tier Architecture Project",
+    company: "AWS Cloud Project",
+    type: "work",
+    description: "Designed and implemented scalable 3-tier architecture on AWS with automated deployment using Terraform.",
+    achievements: [
+      "Reduced deployment time by 30% through automation",
+      "Implemented security best practices with IAM and Security Groups",
+      "Achieved high availability with auto-scaling and load balancing"
+    ]
   },
   {
     id: 3,
-    year: "2022",
-    title: "Senior DevOps Engineer",
-    company: "FinTech Innovations Inc.",
+    year: "2024",
+    title: "Database Migration Project",
+    company: "AWS Migration",
     type: "work",
-    description: "Architected and implemented CI/CD pipelines and cloud infrastructure for high-traffic financial applications.",
+    description: "Successfully migrated large-scale database from on-premise to AWS RDS with zero data loss.",
     achievements: [
-      "Built multi-region disaster recovery system",
-      "Achieved 99.99% uptime SLA",
-      "Automated 90% of deployment processes"
+      "Ensured zero data loss during migration",
+      "Maintained full data integrity and security",
+      "Improved system performance post-migration"
     ]
   },
   {
     id: 4,
-    year: "2021",
-    title: "AWS Solutions Architect Professional",
-    company: "Amazon Web Services",
+    year: "2019 - 2022",
+    title: "Bachelor of Science in Botany",
+    company: "Kalinga Bharati Residential College, Utkal University",
     type: "certification",
-    description: "Earned AWS Solutions Architect Professional certification, validating advanced AWS cloud architecture skills."
-  },
-  {
-    id: 5,
-    year: "2020",
-    title: "DevOps Engineer",
-    company: "StartupHub Technologies",
-    type: "work",
-    description: "Designed and deployed cloud infrastructure on AWS. Implemented monitoring and alerting systems.",
-    achievements: [
-      "Reduced deployment time by 75%",
-      "Built automated scaling system",
-      "Implemented comprehensive monitoring"
-    ]
-  },
-  {
-    id: 6,
-    year: "2019",
-    title: "Terraform Associate Certification",
-    company: "HashiCorp",
-    type: "certification",
-    description: "Certified in Terraform for infrastructure as code best practices and automation."
-  },
-  {
-    id: 7,
-    year: "2018",
-    title: "Systems Engineer",
-    company: "Enterprise Systems Corp",
-    type: "work",
-    description: "Managed on-premise infrastructure and began cloud migration initiatives. Introduced automation practices.",
-    achievements: [
-      "Led AWS migration for 20+ applications",
-      "Implemented configuration management with Ansible",
-      "Reduced manual operations by 50%"
-    ]
+    description: "Completed B.Sc. in Botany with 79.89% from Kalinga Bharati Residential College, Cuttack, Odisha."
   }
 ];
 
