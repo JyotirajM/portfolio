@@ -62,32 +62,32 @@ const About = () => {
               whileHover={{ scale: 1.05, y: -5 }}
               className="bg-gradient-to-br from-purple-600/20 to-purple-900/20 backdrop-blur-lg rounded-2xl p-6 border border-purple-500/20 text-center"
             >
-              <h3 className="text-5xl font-bold text-white mb-2">6+</h3>
-              <p className="text-gray-400">Years Experience</p>
+              <h3 className="text-5xl font-bold text-white mb-2">MCA</h3>
+              <p className="text-gray-400">Master's Degree</p>
             </motion.div>
 
             <motion.div
               whileHover={{ scale: 1.05, y: -5 }}
               className="bg-gradient-to-br from-blue-600/20 to-blue-900/20 backdrop-blur-lg rounded-2xl p-6 border border-blue-500/20 text-center"
             >
-              <h3 className="text-5xl font-bold text-white mb-2">50+</h3>
-              <p className="text-gray-400">Projects Completed</p>
+              <h3 className="text-5xl font-bold text-white mb-2">2+</h3>
+              <p className="text-gray-400">Major Projects</p>
             </motion.div>
 
             <motion.div
               whileHover={{ scale: 1.05, y: -5 }}
               className="bg-gradient-to-br from-cyan-600/20 to-cyan-900/20 backdrop-blur-lg rounded-2xl p-6 border border-cyan-500/20 text-center"
             >
-              <h3 className="text-5xl font-bold text-white mb-2">6</h3>
-              <p className="text-gray-400">Certifications</p>
+              <h3 className="text-5xl font-bold text-white mb-2">AWS</h3>
+              <p className="text-gray-400">Cloud Expert</p>
             </motion.div>
 
             <motion.div
               whileHover={{ scale: 1.05, y: -5 }}
               className="bg-gradient-to-br from-indigo-600/20 to-indigo-900/20 backdrop-blur-lg rounded-2xl p-6 border border-indigo-500/20 text-center"
             >
-              <h3 className="text-5xl font-bold text-white mb-2">99.99%</h3>
-              <p className="text-gray-400">Uptime Achieved</p>
+              <h3 className="text-5xl font-bold text-white mb-2">30%</h3>
+              <p className="text-gray-400">Efficiency Gain</p>
             </motion.div>
           </motion.div>
         </div>
