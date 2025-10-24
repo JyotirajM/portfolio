@@ -1,18 +1,19 @@
-// Mock data for Cloud & DevOps Portfolio
+// Portfolio data for Jyotiraj Aditinandan Mahanta
 
 export const personalInfo = {
-  name: "Alex Rivera",
+  name: "Jyotiraj Aditinandan Mahanta",
   title: "Cloud & DevOps Engineer",
   tagline: "Building scalable infrastructure and automating the future",
-  bio: "Passionate Cloud & DevOps Engineer with 6+ years of experience designing and implementing cloud-native solutions. Specialized in AWS, Azure, Kubernetes orchestration, and building robust CI/CD pipelines. Proven track record of reducing infrastructure costs by 40% while improving deployment efficiency by 60%.",
-  email: "alex.rivera@clouddevops.dev",
-  location: "San Francisco, CA",
+  bio: "A passionate and eager fresher with a Master's in Computer Applications (MCA) and hands-on experience in DevOps. Skilled in automating workflows, managing containerized applications, and deploying scalable infrastructure on AWS. Comfortable working with tools like Docker, Kubernetes, GitLab, and Jenkins to create efficient and reliable environments. Excited to contribute to a dynamic team in a DevOps role, leveraging my cloud and automation skills.",
+  email: "jyotirajm008@gmail.com",
+  phone: "8117091907",
+  location: "Bhubaneswar, Odisha",
   availability: "Open to opportunities",
   social: {
-    github: "https://github.com/alexrivera",
-    linkedin: "https://linkedin.com/in/alexrivera",
-    twitter: "https://twitter.com/alexrivera_dev",
-    website: "https://alexrivera.dev"
+    github: "https://github.com/JyotirajM",
+    linkedin: "https://linkedin.com/in/jyotiraj-aditinandan-mahanta/",
+    twitter: "#",
+    website: "#"
   }
 };
 
