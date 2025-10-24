@@ -7,7 +7,7 @@ export const personalInfo = {
   bio: "A passionate and eager fresher with a Master's in Computer Applications (MCA) and hands-on experience in DevOps. Skilled in automating workflows, managing containerized applications, and deploying scalable infrastructure on AWS. Comfortable working with tools like Docker, Kubernetes, GitLab, and Jenkins to create efficient and reliable environments. Excited to contribute to a dynamic team in a DevOps role, leveraging my cloud and automation skills.",
   email: "jyotirajm008@gmail.com",
   phone: "8117091907",
-  location: "Bhubaneswar, Odisha",
+  location: "Bengaluru, Karnataka",
   availability: "Open to opportunities",
   social: {
     github: "https://github.com/JyotirajM",
@@ -163,67 +163,10 @@ export const timeline = [
   }
 ];
 
-export const certifications = [
-  {
-    id: 1,
-    name: "Master of Computer Applications (MCA)",
-    issuer: "Trident Academy of Creative Technology",
-    date: "2024",
-    icon: "Award",
-    color: "#8b5cf6",
-    credentialId: "MCA-2022-2024"
-  },
-  {
-    id: 2,
-    name: "Bachelor of Science in Botany",
-    issuer: "Kalinga Bharati Residential College",
-    date: "2022",
-    icon: "Award",
-    color: "#3b82f6",
-    credentialId: "BSC-2019-2022"
-  },
-  {
-    id: 3,
-    name: "AWS Cloud Practitioner",
-    issuer: "Amazon Web Services",
-    date: "In Progress",
-    icon: "Cloud",
-    color: "#FF9900",
-    credentialId: "AWS-CLP"
-  },
-  {
-    id: 4,
-    name: "Docker & Kubernetes Expert",
-    issuer: "Self-Certified Project Work",
-    date: "2024",
-    icon: "Package",
-    color: "#2496ED",
-    credentialId: "K8S-DOCKER"
-  },
-  {
-    id: 5,
-    name: "Terraform Infrastructure Expert",
-    issuer: "Self-Certified Project Work",
-    date: "2024",
-    icon: "Code",
-    color: "#7B42BC",
-    credentialId: "TF-IaC"
-  },
-  {
-    id: 6,
-    name: "GitLab CI/CD Pipeline Expert",
-    issuer: "Self-Certified Project Work",
-    date: "2024",
-    icon: "GitBranch",
-    color: "#FC6D26",
-    credentialId: "GL-CICD"
-  }
-];
 
 export default {
   personalInfo,
   skills,
   projects,
   timeline,
-  certifications
 };
