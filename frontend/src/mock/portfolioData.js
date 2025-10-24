@@ -166,57 +166,57 @@ export const timeline = [
 export const certifications = [
   {
     id: 1,
-    name: "AWS Solutions Architect Professional",
-    issuer: "Amazon Web Services",
-    date: "2021",
+    name: "Master of Computer Applications (MCA)",
+    issuer: "Trident Academy of Creative Technology",
+    date: "2024",
     icon: "Award",
-    color: "#FF9900",
-    credentialId: "AWS-SAP-12345"
+    color: "#8b5cf6",
+    credentialId: "MCA-2022-2024"
   },
   {
     id: 2,
-    name: "Certified Kubernetes Administrator (CKA)",
-    issuer: "Cloud Native Computing Foundation",
-    date: "2023",
-    icon: "Shield",
-    color: "#326CE5",
-    credentialId: "CKA-67890"
+    name: "Bachelor of Science in Botany",
+    issuer: "Kalinga Bharati Residential College",
+    date: "2022",
+    icon: "Award",
+    color: "#3b82f6",
+    credentialId: "BSC-2019-2022"
   },
   {
     id: 3,
-    name: "Microsoft Azure Solutions Architect Expert",
-    issuer: "Microsoft",
-    date: "2022",
+    name: "AWS Cloud Practitioner",
+    issuer: "Amazon Web Services",
+    date: "In Progress",
     icon: "Cloud",
-    color: "#0078D4",
-    credentialId: "AZ-305-54321"
+    color: "#FF9900",
+    credentialId: "AWS-CLP"
   },
   {
     id: 4,
-    name: "HashiCorp Certified: Terraform Associate",
-    issuer: "HashiCorp",
-    date: "2019",
-    icon: "Code",
-    color: "#7B42BC",
-    credentialId: "HCTA-98765"
+    name: "Docker & Kubernetes Expert",
+    issuer: "Self-Certified Project Work",
+    date: "2024",
+    icon: "Package",
+    color: "#2496ED",
+    credentialId: "K8S-DOCKER"
   },
   {
     id: 5,
-    name: "Google Cloud Professional Cloud Architect",
-    issuer: "Google Cloud",
-    date: "2022",
-    icon: "Layers",
-    color: "#4285F4",
-    credentialId: "GCP-PCA-11223"
+    name: "Terraform Infrastructure Expert",
+    issuer: "Self-Certified Project Work",
+    date: "2024",
+    icon: "Code",
+    color: "#7B42BC",
+    credentialId: "TF-IaC"
   },
   {
     id: 6,
-    name: "Certified Jenkins Engineer",
-    issuer: "CloudBees",
-    date: "2020",
+    name: "GitLab CI/CD Pipeline Expert",
+    issuer: "Self-Certified Project Work",
+    date: "2024",
     icon: "GitBranch",
-    color: "#D33833",
-    credentialId: "CJE-44556"
+    color: "#FC6D26",
+    credentialId: "GL-CICD"
   }
 ];
 
