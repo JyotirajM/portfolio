@@ -76,127 +76,45 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    title: "Multi-Cloud Kubernetes Platform",
-    description: "Designed and deployed a production-grade Kubernetes platform spanning AWS, Azure, and GCP with automated failover and disaster recovery. Achieved 99.99% uptime with zero-downtime deployments.",
+    title: "3-Tier Architecture Implementation using AWS",
+    description: "Designed and implemented a scalable and secure 3-tier architecture using AWS services. Set up a Virtual Private Cloud (VPC) with public and private subnets to separate application and database layers for enhanced security. Deployed highly available EC2 instances within the application layer, integrated with an RDS (MySQL) database in the backend.",
     highlights: [
-      "Managed 500+ microservices across 3 cloud providers",
-      "Implemented GitOps with ArgoCD and Flux",
-      "Reduced cross-cloud latency by 40% with intelligent routing"
+      "Automated infrastructure deployment using Terraform, reducing manual errors and deployment time by 30%",
+      "Configured S3 for static content storage, ensuring minimal downtime and fast content delivery",
+      "Applied security best practices with IAM roles and Security Groups",
+      "Implemented auto-scaling and load balancing for high availability and fault tolerance"
     ],
-    technologies: ["Kubernetes", "Terraform", "ArgoCD", "Istio", "AWS", "Azure", "GCP"],
+    technologies: ["AWS", "VPC", "EC2", "RDS (MySQL)", "S3", "Terraform", "IAM", "Security Groups"],
     metrics: {
-      uptime: "99.99%",
-      services: "500+",
-      costSaving: "35%"
+      improvement: "30%",
+      availability: "High",
+      security: "Enhanced"
     },
     links: {
-      github: "https://github.com/alexrivera/multi-cloud-k8s",
-      demo: "https://demo.multi-cloud.dev"
+      github: "https://github.com/JyotirajM"
     },
     image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80"
   },
   {
     id: 2,
-    title: "Automated CI/CD Pipeline Platform",
-    description: "Built enterprise-grade CI/CD platform using Jenkins, GitLab, and GitHub Actions with automated testing, security scanning, and deployment to multiple environments. Reduced deployment time from 2 hours to 15 minutes.",
+    title: "Database Migration Project",
+    description: "Successfully managed and executed the migration of a large-scale database from an on-premise server to AWS RDS, ensuring zero data loss during the transition. Created backup strategies and migration plans to minimize downtime and ensure a smooth transition.",
     highlights: [
-      "Integrated automated security scanning with Trivy and SonarQube",
-      "Implemented blue-green and canary deployment strategies",
-      "Achieved 85% reduction in deployment time"
+      "Migrated data with zero data loss using AWS Database Migration Service (DMS) and MySQL tools",
+      "Maintained full data integrity and security throughout migration",
+      "Conducted rigorous post-migration testing and validation",
+      "Improved system performance and reliability with AWS monitoring tools"
     ],
-    technologies: ["Jenkins", "GitLab CI", "GitHub Actions", "Docker", "Kubernetes", "Terraform"],
+    technologies: ["AWS RDS", "AWS DMS", "MySQL", "CloudWatch"],
     metrics: {
-      deployments: "1000+/month",
-      timeReduction: "85%",
-      teams: "25+"
+      dataLoss: "0%",
+      downtime: "Minimal",
+      performance: "Improved"
     },
     links: {
-      github: "https://github.com/alexrivera/cicd-platform",
-      docs: "https://docs.cicd-platform.dev"
+      github: "https://github.com/JyotirajM"
     },
     image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80"
-  },
-  {
-    id: 3,
-    title: "Cloud Cost Optimization Engine",
-    description: "Developed intelligent cost optimization system using Python and AWS Lambda that analyzes resource usage patterns and automatically rightsizes instances, schedules non-critical workloads, and identifies unused resources.",
-    highlights: [
-      "Reduced AWS costs by $180K annually (42% savings)",
-      "Automated rightsizing of 800+ EC2 instances",
-      "Implemented predictive scaling based on historical patterns"
-    ],
-    technologies: ["Python", "AWS Lambda", "CloudWatch", "Boto3", "Terraform", "DynamoDB"],
-    metrics: {
-      costSaving: "42%",
-      annualSavings: "$180K",
-      instances: "800+"
-    },
-    links: {
-      github: "https://github.com/alexrivera/cloud-cost-optimizer"
-    },
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80"
-  },
-  {
-    id: 4,
-    title: "Infrastructure Monitoring Stack",
-    description: "Deployed comprehensive monitoring solution using Prometheus, Grafana, and ELK Stack with custom dashboards and alerting. Provides real-time visibility into 300+ services across multiple clusters.",
-    highlights: [
-      "Created 50+ custom Grafana dashboards",
-      "Implemented predictive alerting with ML models",
-      "Reduced MTTR by 65% with intelligent alert routing"
-    ],
-    technologies: ["Prometheus", "Grafana", "Elasticsearch", "Logstash", "Kibana", "AlertManager"],
-    metrics: {
-      services: "300+",
-      alerts: "10K+/day",
-      mttrReduction: "65%"
-    },
-    links: {
-      github: "https://github.com/alexrivera/monitoring-stack",
-      demo: "https://monitoring.demo.dev"
-    },
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
-  },
-  {
-    id: 5,
-    title: "Disaster Recovery Automation",
-    description: "Architected and implemented automated disaster recovery system for critical applications with RPO of 5 minutes and RTO of 15 minutes. Includes automated failover, data replication, and regular DR drills.",
-    highlights: [
-      "Automated cross-region replication for 50+ databases",
-      "Implemented automated failover with Route53 health checks",
-      "Conducted quarterly DR drills with 100% success rate"
-    ],
-    technologies: ["AWS", "Terraform", "Route53", "RDS", "S3", "Lambda", "Python"],
-    metrics: {
-      rpo: "5 min",
-      rto: "15 min",
-      databases: "50+"
-    },
-    links: {
-      github: "https://github.com/alexrivera/dr-automation"
-    },
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80"
-  },
-  {
-    id: 6,
-    title: "Serverless Microservices Platform",
-    description: "Built serverless platform on AWS using Lambda, API Gateway, and DynamoDB. Implemented event-driven architecture with SNS/SQS, automatic scaling, and comprehensive logging and monitoring.",
-    highlights: [
-      "Handles 10M+ requests per day",
-      "Reduced operational costs by 60%",
-      "Achieved sub-100ms response times"
-    ],
-    technologies: ["AWS Lambda", "API Gateway", "DynamoDB", "SNS", "SQS", "CloudFormation"],
-    metrics: {
-      requests: "10M+/day",
-      costSaving: "60%",
-      latency: "<100ms"
-    },
-    links: {
-      github: "https://github.com/alexrivera/serverless-platform",
-      docs: "https://docs.serverless-platform.dev"
-    },
-    image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&q=80"
   }
 ];
 
