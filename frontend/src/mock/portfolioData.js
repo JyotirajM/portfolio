@@ -22,62 +22,53 @@ export const skills = [
     id: 1,
     category: "Cloud Platforms",
     items: [
-      { name: "AWS", level: 95, icon: "Cloud" },
-      { name: "Azure", level: 88, icon: "Cloud" },
-      { name: "Google Cloud Platform", level: 82, icon: "Cloud" },
-      { name: "DigitalOcean", level: 85, icon: "Cloud" }
+      { name: "AWS (EC2, S3, RDS, Lambda, VPC)", level: 90, icon: "Cloud" },
+      { name: "AWS CloudWatch", level: 85, icon: "Activity" },
+      { name: "Route 53", level: 82, icon: "Globe" },
+      { name: "ELB (Elastic Load Balancer)", level: 85, icon: "Network" }
     ]
   },
   {
     id: 2,
     category: "Container & Orchestration",
     items: [
-      { name: "Kubernetes", level: 92, icon: "Box" },
-      { name: "Docker", level: 95, icon: "Package" },
-      { name: "Helm", level: 88, icon: "Ship" },
-      { name: "Docker Swarm", level: 80, icon: "Layers" }
+      { name: "Docker", level: 92, icon: "Package" },
+      { name: "Kubernetes", level: 88, icon: "Box" }
     ]
   },
   {
     id: 3,
-    category: "CI/CD & Automation",
+    category: "CI/CD & DevOps",
     items: [
-      { name: "Jenkins", level: 90, icon: "GitBranch" },
-      { name: "GitLab CI/CD", level: 92, icon: "GitMerge" },
-      { name: "GitHub Actions", level: 94, icon: "Github" },
-      { name: "ArgoCD", level: 87, icon: "GitPullRequest" },
-      { name: "CircleCI", level: 85, icon: "Circle" }
+      { name: "GitLab CI/CD", level: 90, icon: "GitBranch" },
+      { name: "Jenkins", level: 88, icon: "GitMerge" }
     ]
   },
   {
     id: 4,
     category: "Infrastructure as Code",
     items: [
-      { name: "Terraform", level: 93, icon: "Code" },
-      { name: "Ansible", level: 89, icon: "FileCode" },
-      { name: "CloudFormation", level: 86, icon: "Braces" },
-      { name: "Pulumi", level: 82, icon: "Terminal" }
+      { name: "Terraform", level: 90, icon: "Code" },
+      { name: "AWS CloudFormation", level: 85, icon: "Braces" }
     ]
   },
   {
     id: 5,
-    category: "Monitoring & Observability",
+    category: "Monitoring & Management",
     items: [
-      { name: "Prometheus", level: 91, icon: "Activity" },
-      { name: "Grafana", level: 90, icon: "BarChart" },
-      { name: "ELK Stack", level: 87, icon: "Database" },
-      { name: "Datadog", level: 85, icon: "TrendingUp" },
-      { name: "New Relic", level: 83, icon: "Zap" }
+      { name: "Grafana", level: 88, icon: "BarChart" },
+      { name: "Prometheus", level: 87, icon: "Activity" },
+      { name: "AWS CloudWatch", level: 85, icon: "TrendingUp" },
+      { name: "IAM", level: 90, icon: "Shield" }
     ]
   },
   {
     id: 6,
-    category: "Programming & Scripting",
+    category: "Version Control & OS",
     items: [
-      { name: "Python", level: 90, icon: "Code2" },
-      { name: "Bash/Shell", level: 92, icon: "Terminal" },
-      { name: "Go", level: 80, icon: "Code" },
-      { name: "YAML/JSON", level: 95, icon: "FileJson" }
+      { name: "Git", level: 92, icon: "GitBranch" },
+      { name: "GitLab", level: 90, icon: "Code2" },
+      { name: "Linux (CentOS, Ubuntu)", level: 88, icon: "Terminal" }
     ]
   }
 ];
